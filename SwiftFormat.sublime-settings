@@ -1,0 +1,4 @@
+{
+  "swift_format_binary": "/usr/local/bin/swiftformat",
+  "swift_format_on_save": false
+}

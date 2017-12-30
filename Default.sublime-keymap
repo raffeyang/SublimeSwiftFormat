@@ -1,6 +1,6 @@
 [
     {
-        "keys": ["ctrl+f"],
+        "keys": ["ctrl+option+f"],
         "command": "swift_format_file",
         "context": [{"key": "selector", "operator": "equal", "operand": "source.swift"}]
     }
