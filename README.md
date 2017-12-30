@@ -21,9 +21,7 @@ A simple plugin to format swift code in Sublime Text.
 
 #### Package Control
 
-1. Install [Package Control](https://packagecontrol.io/)
-2. Run `Package Control: Install Package` in the Command Palette (Super+Shift+P)
-3. Install `SwiftFormat`
+- [ ] Comming Soon
 
 #### Manual
 
