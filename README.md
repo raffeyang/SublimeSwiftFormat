@@ -53,9 +53,16 @@ A simple plugin to format swift code in Sublime Text.
 - `swift_format_binary`
   - Full path to `swiftformat` binary (if not on `PATH`)
 
+```
+{
+    "swift_format_on_save": false,
+    "swift_format_binary": ""
+}
+```
+
 ## Thanks
 
-This Plugin is heavily inspired by [RustFormat](https://packagecontrol.io/packages/RustFormat)
+This Plugin is heavily inspired by [RustFormat](https://github.com/Rypac/sublime-rust-format)
 
 ## License
 
