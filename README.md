@@ -39,7 +39,7 @@ A simple plugin to format swift code in Sublime Text.
 
 - `SwiftFormat: Format Selection`
   - Format the current selection
-- `SwiftFormat: Format File` (<kbd>Ctrl+f</kbd>)
+- `SwiftFormat: Format File` (<kbd>ctrl+option+f</kbd>)
   - Format the current file
 - `SwiftFormat: Enable Format on Save`
   - Enable automatic formatting of swift source files on save
@@ -56,7 +56,7 @@ A simple plugin to format swift code in Sublime Text.
 ```
 {
     "swift_format_on_save": false,
-    "swift_format_binary": ""
+    "swift_format_binary": "/usr/local/bin/swiftformat"
 }
 ```
 
