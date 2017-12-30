@@ -1,0 +1,59 @@
+[
+    {
+        "id": "tools",
+        "children": [
+            {
+                "caption": "SwiftFormat",
+                "id": "swift-format",
+                "children": [
+                    {
+                        "caption": "Format Selection",
+                        "command": "swift_format_selection"
+                    },
+                    {
+                        "caption": "Format File",
+                        "command": "swift_format_file"
+                    },
+                    {
+                        "caption": "-",
+                    },
+                    {
+                        "caption": "Format on Save",
+                        "command": "swift_format_toggle_on_save"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "preferences",
+        "children": [
+            {
+                "caption": "Package Settings",
+                "mnemonic": "P",
+                "id": "package-settings",
+                "children": [
+                    {
+                        "caption": "SwiftFormat",
+                        "children": [
+                            {
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/SwiftFormat/SwiftFormat.sublime-settings"
+                                },
+                                "caption": "Settings - Default"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/User/SwiftFormat.sublime-settings"
+                                },
+                                "caption": "Settings - User"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

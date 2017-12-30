@@ -1,0 +1,18 @@
+[
+    {
+        "caption": "SwiftFormat: Format Selection",
+        "command": "swift_format_selection"
+    },
+    {
+        "caption": "SwiftFormat: Format File",
+        "command": "swift_format_file"
+    },
+    {
+        "caption": "SwiftFormat: Enable Format on Save",
+        "command": "swift_format_enable_on_save"
+    },
+    {
+        "caption": "SwiftFormat: Disable Format on Save",
+        "command": "swift_format_disable_on_save"
+    }
+]
