@@ -1,16 +1,17 @@
-# SwiftFormat
+# SublimeSwiftFormat
 
-A simple plugin to format swift code.
+A simple plugin to format swift code in Sublime Text.
 
 ## Prerequisites
 
-* macOS
-* Xcode
-* SwiftFormat
+- macOS
+- Xcode
+- SwiftFormat
 
 > This package relies on the amazing [SwiftFormat](https://github.com/nicklockwood/SwiftFormat) to format Swift source code files.
 
 > The simplest way to install the `swiftformat` command-line tool is via [Homebrew](http://brew.sh/). If you already have Homebrew installed, just type
+>
 > ```
 > brew update
 > brew install swiftformat
@@ -31,30 +32,37 @@ A simple plugin to format swift code.
 2. Clone the repository
 
    ```bash
-   git clone 
+   git clone https://github.com/Jax0rz/SublimeSwiftFormat.git
    ```
 
 ## Commands
 
 - `SwiftFormat: Format Selection`
-    + Format the current selection
-- `SwiftFormat: Format File` (<kbd>Ctrl+k</kbd>, <kbd>Ctrl+f</kbd>)
-    + Format the current file
+  - Format the current selection
+- `SwiftFormat: Format File` (<kbd>Ctrl+f</kbd>)
+  - Format the current file
 - `SwiftFormat: Enable Format on Save`
-    + Enable automatic formatting of swift source files on save
+  - Enable automatic formatting of swift source files on save
 - `SwiftFormat: Disable Format on Save`
-    + Disable automatic formatting of swift source files on save
+  - Disable automatic formatting of swift source files on save
 
 ## Configuration
 
 - `swift_format_on_save`
-    + Automatically format files on save
+  - Automatically format files on save
 - `swift_format_binary`
-    + Full path to `swiftformat` binary (if not on `PATH`)
+  - Full path to `swiftformat` binary (if not on `PATH`)
+
+```
+{
+    "swift_format_on_save": false,
+    "swift_format_binary": ""
+}
+```
 
 ## Thanks
 
-This Plugin is heavily inspired by [RustFormat](https://packagecontrol.io/packages/RustFormat)
+This Plugin is heavily inspired by [RustFormat](https://github.com/Rypac/sublime-rust-format)
 
 ## License
 
